@@ -1,0 +1,58 @@
+/* 전체 스타일 */
+body {
+    background-color: #f8f9fa;
+}
+
+/* 네비게이션 바 */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* 카드 스타일 */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* 기사 제목 링크 */
+.card-title a {
+    color: #212529;
+}
+
+.card-title a:hover {
+    color: #0d6efd;
+}
+
+/* 뱃지 스타일 */
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.8em;
+}
+
+/* 푸터 스타일 */
+.footer {
+    border-top: 1px solid #dee2e6;
+}
+
+/* 기사 내용 스타일 */
+.article-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* 반응형 조정 */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .card-title {
+        font-size: 1.2rem;
+    }
+} 
